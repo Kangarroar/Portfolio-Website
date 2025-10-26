@@ -1,5 +1,10 @@
 export const textContent = {
   es: {
+    navigation: {
+      about: "Acerca de",
+      projects: "Proyectos",
+      contact: "Contacto"
+    },
     hero: {
       name: "Pedro Sandoval",
       title: "Analista Programador",
@@ -37,6 +42,11 @@ export const textContent = {
     }
   },
   en: {
+    navigation: {
+      about: "About",
+      projects: "Projects",
+      contact: "Contact"
+    },
     hero: {
       name: "Pedro Sandoval",
       title: "Programmer Analyst ",

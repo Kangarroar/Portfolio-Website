@@ -1,4 +1,8 @@
-const Navigation = () => {
+import { textContent } from '../constants/text'
+
+const Navigation = ({ currentLanguage }) => {
+  const content = textContent[currentLanguage]
+  
   return (
     <nav className="fixed top-0 left-0 right-0 z-40 bg-black/20 backdrop-blur-xl border-b border-white/10">
       <div className="container mx-auto px-6 py-4">
@@ -8,13 +12,13 @@ const Navigation = () => {
           </div>
           <div className="hidden md:flex space-x-8">
             <a href="#about" className="text-gray-300 hover:text-white transition-colors duration-300">
-              About
+              {content.navigation.about}
             </a>
             <a href="#projects" className="text-gray-300 hover:text-white transition-colors duration-300">
-              Projects
+              {content.navigation.projects}
             </a>
             <a href="#contact" className="text-gray-300 hover:text-white transition-colors duration-300">
-              Contact
+              {content.navigation.contact}
             </a>
           </div>
         </div>

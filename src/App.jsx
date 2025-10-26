@@ -11,7 +11,7 @@ function App() {
   return (
     <div className={`min-h-screen bg-gradient-to-br ${colors.background.primary} relative overflow-hidden`}>
       {/* Navigation */}
-      <Navigation />
+      <Navigation currentLanguage={language} />
       
       <LanguageSwitcher currentLanguage={language} onLanguageChange={setLanguage} />
     
