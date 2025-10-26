@@ -6,5 +6,4 @@ With glassmorphism effects, and bilingual support (Spanish/English).
 - **React 18** Frontend
 - **Vite**
 - **Tailwind CSS** 
-- **JavaScript** 
 
