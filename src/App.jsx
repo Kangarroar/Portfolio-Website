@@ -53,7 +53,6 @@ function App() {
           </div>
         </div>
       </div>
-    </div>
 
         {/* Projects */}
         <div className="mb-20" id="projects">
@@ -126,6 +125,7 @@ function App() {
             </div>
           </div>
         </div>
+     </div>
   )
 }
 
