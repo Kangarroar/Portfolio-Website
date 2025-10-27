@@ -36,6 +36,25 @@ function App() {
           </div>
         </div>
 
+        {/* Contact */}
+        <div className="text-center" id="contact">
+          <h3 className={`text-3xl md:text-4xl font-bold bg-gradient-to-r ${colors.gradientText.heading} bg-clip-text text-transparent mb-6`}>
+            {content.contact.title}
+          </h3>
+          <p className={`${colors.text.secondary} mb-12 text-lg`}>{content.contact.subtitle}</p>
+          <div className="flex flex-col sm:flex-row justify-center gap-6">
+            <button className={`group relative bg-gradient-to-r ${colors.buttons.primary.bg} text-white px-10 py-4 rounded-full font-semibold hover:${colors.buttons.primary.hover} transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:${colors.buttons.primary.shadow}`}>
+              <span className="relative z-10">{content.contact.primaryButton}</span>
+              <div className={`absolute inset-0 bg-gradient-to-r ${colors.buttons.primary.hover} rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300`}></div>
+            </button>
+            <button className={`group relative border-2 ${colors.buttons.secondary.border} text-white px-10 py-4 rounded-full font-semibold hover:${colors.buttons.secondary.bg} hover:${colors.buttons.secondary.hover} transition-all duration-300 hover:scale-105 backdrop-blur-sm`}>
+              <span className="relative z-10">{content.contact.secondaryButton}</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
         {/* Projects */}
         <div className="mb-20" id="projects">
           <h2 className={`text-4xl md:text-5xl font-bold bg-gradient-to-r ${colors.gradientText.heading} bg-clip-text text-transparent text-center mb-16`}>
@@ -107,25 +126,6 @@ function App() {
             </div>
           </div>
         </div>
-
-        {/* Contact */}
-        <div className="text-center" id="contact">
-          <h3 className={`text-3xl md:text-4xl font-bold bg-gradient-to-r ${colors.gradientText.heading} bg-clip-text text-transparent mb-6`}>
-            {content.contact.title}
-          </h3>
-          <p className={`${colors.text.secondary} mb-12 text-lg`}>{content.contact.subtitle}</p>
-          <div className="flex flex-col sm:flex-row justify-center gap-6">
-            <button className={`group relative bg-gradient-to-r ${colors.buttons.primary.bg} text-white px-10 py-4 rounded-full font-semibold hover:${colors.buttons.primary.hover} transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:${colors.buttons.primary.shadow}`}>
-              <span className="relative z-10">{content.contact.primaryButton}</span>
-              <div className={`absolute inset-0 bg-gradient-to-r ${colors.buttons.primary.hover} rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300`}></div>
-            </button>
-            <button className={`group relative border-2 ${colors.buttons.secondary.border} text-white px-10 py-4 rounded-full font-semibold hover:${colors.buttons.secondary.bg} hover:${colors.buttons.secondary.hover} transition-all duration-300 hover:scale-105 backdrop-blur-sm`}>
-              <span className="relative z-10">{content.contact.secondaryButton}</span>
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
   )
 }
 
