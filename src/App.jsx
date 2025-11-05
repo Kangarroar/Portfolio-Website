@@ -4,6 +4,7 @@ import { textContent } from './constants/text'
 import Navigation from './components/Navigation'
 import yemcImage from './assets/yemc.png'
 import lfcImage from './assets/lfc.png'
+import cvFile from './assets/Pedro_Sandoval_CV.PDF';
 
 function App() {
   const [language, setLanguage] = useState('es')
@@ -112,7 +113,7 @@ function App() {
               {content.resume.title}
             </h2>
             <a
-              href="/src/assets/Pedro_Sandoval_CV.PDF"
+              href={cvFile}
               download="Pedro_Sandoval_CV.pdf"
               className={`group relative bg-gradient-to-r ${colors.buttons.primary.bg} text-white px-8 py-3 rounded-full font-semibold hover:${colors.buttons.primary.hover} transition-all duration-300 hover:scale-105 flex items-center gap-2`}
             >
