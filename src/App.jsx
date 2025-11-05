@@ -112,7 +112,7 @@ function App() {
               {content.resume.title}
             </h2>
             <a
-              href="/src/assets/Pedro_Tomas_Sandoval_Munoz_CV (2) (1).PDF"
+              href="/src/assets/Pedro_Sandoval_CV.PDF"
               download="Pedro_Sandoval_CV.pdf"
               className={`group relative bg-gradient-to-r ${colors.buttons.primary.bg} text-white px-8 py-3 rounded-full font-semibold hover:${colors.buttons.primary.hover} transition-all duration-300 hover:scale-105 flex items-center gap-2`}
             >
