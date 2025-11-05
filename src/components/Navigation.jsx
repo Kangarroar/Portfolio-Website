@@ -11,11 +11,11 @@ const Navigation = ({ currentLanguage }) => {
             Pedro Sandoval
           </div>
           <div className="hidden md:flex space-x-8">
-            <a href="#about" className="text-gray-300 hover:text-white transition-colors duration-300">
-              {content.navigation.about}
-            </a>
             <a href="#projects" className="text-gray-300 hover:text-white transition-colors duration-300">
               {content.navigation.projects}
+            </a>
+            <a href="#resume" className="text-gray-300 hover:text-white transition-colors duration-300">
+              {content.navigation.resume}
             </a>
             <a href="#contact" className="text-gray-300 hover:text-white transition-colors duration-300">
               {content.navigation.contact}

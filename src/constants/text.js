@@ -1,86 +1,208 @@
 export const textContent = {
   es: {
     navigation: {
-      about: "Acerca de",
       projects: "Proyectos",
+      resume: "CV",
       contact: "Contacto"
     },
     hero: {
       name: "Pedro Sandoval",
       title: "Analista Programador",
+      subtitle: "Automatización • Eficiencia • Desarrollo",
+      description: "Especializado en servicios TI y automatización de procesos",
       status: "Disponible para trabajar"
     },
     projects: {
-      title: "Lorem Ipsum Dolor",
-      card1: {
-        title: "Lorem Ipsum Sit",
-        tech: "Lorem Ipsum Dolor"
+      title: "Proyectos",
+      yemc: {
+        title: "YEMC",
+        description: "Local media converter.",
+        tech: "Tailwind • Vite • Vue",
+        link: "https://yemc.pages.dev"
       },
-      card2: {
-        title: "Lorem Ipsum Dolor",
-        tech: "Lorem Ipsum Dolor"
-      },
-      card3: {
-        title: "Lorem Ipsum Dolor",
-        tech: "Lorem Ipsum Dolor"
-      },
-      label: "Lorem Ipsum"
+      lfc: {
+        title: "Legion Fan Controller",
+        description: "Control de ventiladores para Lenovo Legion",
+        tech: "C# • .NET",
+        link: "https://github.com/Kangarroar/Legion-Fan-Controller"
+      }
     },
-    about: {
-      title: "Acerca de Mí",
-      content: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
-      ]
+    resume: {
+      title: "Currículum",
+      downloadButton: "Descargar CV",
+      contact: {
+        title: "Información Personal",
+        location: "Chile",
+        email: "pedrosandm@hotmail.com"
+      },
+      about: {
+        title: "Sobre Mí",
+        text: "Soy Pedro Sandoval, un profesional proactivo y adaptable, con experiencia en la operación de diversos equipos tecnológicos y servicios TI. Mi principal fortaleza radica en mi capacidad para mantener la organización, el orden y el control riguroso de los detalles. Trabajo con un enfoque orientado a la presentación, automatización y la eficiencia."
+      },
+      experience: {
+        title: "Experiencia",
+        jobs: [
+          {
+            company: "Watts S.A.",
+            role: "Servicio TI",
+            period: "12/2024 - 03/2025",
+            description: "Soporte On-Site y Automatización de diversas tareas redundantes para mejorar la eficiencia dando soporte TI, relacionado con ServiceDesk, Zoho, POSTMAN, PowerBI, Excel y Active Directory.",
+            achievements: [
+              "Interconexión de ManageEngine via API con PowerBI, generando un Dashboard dinámico diario de incidencias y tickets.",
+              "Automatización/Creación automática de tickets hacia ManageEngine al detectar un enlace/punto de red/switch caído por más de 2 minutos."
+            ]
+          },
+          {
+            company: "Walmart",
+            role: "Operador Tienda",
+            period: "01/2022 – Actualidad",
+            description: "",
+            achievements: []
+          }
+        ]
+      },
+      education: {
+        title: "Educación",
+        degree: "Analista Programador",
+        institution: "INACAP - Chillán, Chile",
+        year: "12/2024"
+      },
+      skills: {
+        title: "Habilidades",
+        technical: {
+          title: "Habilidades Técnicas",
+          items: [
+            "React (básico)",
+            "ManageEngine ServiceDesk (avanzado)",
+            "Active Directory (intermedio)",
+            "Python (intermedio)",
+            "PowerBI (intermedio)"
+          ]
+        },
+        soft: {
+          title: "Habilidades Blandas",
+          items: [
+            "Solución de problemas",
+            "Atención a los detalles",
+            "Analítico, orientado a la tarea",
+            "Prudencia, tolerancia a la presión"
+          ]
+        }
+      },
+      certifications: {
+        title: "Certificaciones",
+        items: ["English C2"]
+      }
     },
     contact: {
-      title: "Lorem Ipsum Sit",
-      subtitle: "a",
-      primaryButton: "Contáctame",
-      secondaryButton: "Ver CV"
+      title: "Contacto",
+      subtitle: "Interesado en trabajar juntos?",
+      email: "pedrosandm@hotmail.com",
+      linkedin: "linkedin.com/in/pedro-sandoval-munoz",
+      github: "github.com/Kangarroar"
     }
   },
   en: {
     navigation: {
-      about: "About",
       projects: "Projects",
+      resume: "Resume",
       contact: "Contact"
     },
     hero: {
       name: "Pedro Sandoval",
-      title: "Programmer Analyst ",
+      title: "Programmer Analyst",
+      subtitle: "Automation • Efficiency • Development",
+      description: "Specialized in IT services and process automation",
       status: "Available for work"
     },
     projects: {
-      title: "Lorem Ipsum Dolor",
-      card1: {
-        title: "Lorem Ipsum Sit",
-        tech: "Lorem Ipsum Sit"
+      title: "Projects",
+      yemc: {
+        title: "YEMC",
+        description: "Local media converter.",
+        tech: "Tailwind • Vite • Vue",
+        link: "https://yemc.pages.dev"
       },
-      card2: {
-        title: "Lorem Ipsum Sit",
-        tech: "Lorem Ipsum Sit"
-      },
-      card3: {
-        title: "Lorem Ipsum Sit",
-        tech: "Lorem Ipsum Sit"
-      },
-      label: "Lorem Ipsum"
+      lfc: {
+        title: "Legion Fan Controller",
+        description: "Fan control utility for Lenovo Legion laptops",
+        tech: "C# • .NET",
+        link: "https://github.com/Kangarroar/Legion-Fan-Controller"
+      }
     },
-    about: {
-      title: "About Me",
-      content: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
-      ]
+    resume: {
+      title: "Resume",
+      downloadButton: "Download CV",
+      contact: {
+        title: "Personal Information",
+        location: "Chile",
+        email: "pedrosandm@hotmail.com"
+      },
+      about: {
+        title: "About Me",
+        text: "I'm Pedro Sandoval, a proactive and adaptable professional with experience in operating various technological equipment and IT services. My main strength lies in my ability to maintain organization, order, and rigorous control of details. I work with a focus on presentation, automation, and efficiency."
+      },
+      experience: {
+        title: "Experience",
+        jobs: [
+          {
+            company: "Watts S.A.",
+            role: "IT Service",
+            period: "12/2024 - 03/2025",
+            description: "On-Site support and automation of various redundant tasks to improve efficiency providing IT support, related to ServiceDesk, Zoho, POSTMAN, PowerBI, Excel, and Active Directory.",
+            achievements: [
+              "Interconnection of ManageEngine via API with PowerBI, generating a dynamic daily dashboard of incidents and tickets.",
+              "Automation/Automatic ticket creation to ManageEngine when detecting a network link/point/switch down for more than 2 minutes."
+            ]
+          },
+          {
+            company: "Walmart",
+            role: "Store Operator",
+            period: "01/2022 – Present",
+            description: "",
+            achievements: []
+          }
+        ]
+      },
+      education: {
+        title: "Education",
+        degree: "Programmer Analyst",
+        institution: "INACAP - Chillán, Chile",
+        year: "12/2024"
+      },
+      skills: {
+        title: "Skills",
+        technical: {
+          title: "Technical Skills",
+          items: [
+            "React (basic)",
+            "ManageEngine ServiceDesk (advanced)",
+            "Active Directory (intermediate)",
+            "Python (intermediate)",
+            "PowerBI (intermediate)"
+          ]
+        },
+        soft: {
+          title: "Soft Skills",
+          items: [
+            "Problem solving",
+            "Attention to detail",
+            "Analytical, task-oriented",
+            "Prudence, stress tolerance"
+          ]
+        }
+      },
+      certifications: {
+        title: "Certifications",
+        items: ["English C2"]
+      }
     },
     contact: {
-      title: "Lorem Ipsum Sit",
-      subtitle: "a",
-      primaryButton: "Contact Me",
-      secondaryButton: "View Resume"
+      title: "Contact",
+      subtitle: "Interested in working together?",
+      email: "pedrosandm@hotmail.com",
+      linkedin: "linkedin.com/in/pedro-sandoval-munoz",
+      github: "github.com/Kangarroar"
     }
   }
 }

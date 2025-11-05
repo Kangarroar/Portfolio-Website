@@ -1,0 +1,38 @@
+Chillán Chile • +56933242668 • pedrosandm@hotmail.com
+SOBRE MÍ
+Soy Pedro Sandoval, un profesional proactivo y adaptable, con experiencia en la operación de diversos
+equipos tecnológicos y servicios TI.
+Mi principal fortaleza radica en mi capacidad para mantener la organización, el orden y el control riguroso de
+los detalles.
+Trabajo con un enfoque orientado a la presentación, automatización y la eficiencia. Estoy abierto a nuevos
+desafíos que me permitan seguir desarrollando mis habilidades y aportar valor en diversos entornos.
+PERFILES Y PORTAFOLIOS
+https://www.linkedin.com/in/pedro-sandoval-munoz
+https://www.psandoval.pages.dev
+EXPERIENCIA
+Watts S.A. — Servicio TI, 12/2024 - 03/2025
+Soporte On-Site y Automatización de diversas tareas redundantes para mejorar la eficiencia dando
+soporte TI, relacionado con ServiceDesk, Zoho, POSTMAN, PowerBI, Excel y Active Directory.
+Logros:
+• Interconexión de ManageEngine via API con PowerBI, generando un Dashboard dinámico
+diario de incidencias y tickets.
+• Automatización/Creación automática de tickets hacia ManageEngine al detectar un
+enlace/punto de red/switch caído por más de 2 minutos.
+Walmart — Operador Tienda, 01/2022 – Actualidad
+EDUCACIÓN
+Analista Programador, 12/2024
+INACAP - Chillán, Chile
+HABILIDADES
+Habilidades técnicas:
+• React (básico)
+• ManageEngine ServiceDesk (avanzado)
+• Active Directory (intermedio)
+• Python (intermedio)
+• PowerBI (intermedio)
+Habilidades blandas:
+● Solución de problemas
+● Atención a los detalles
+● Analítico, orientado a la tarea, prudencia,
+tolerancia a la presión.
+CERTIFICACIONES
+English C2
