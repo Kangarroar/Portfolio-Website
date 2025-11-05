@@ -4,7 +4,7 @@ import { textContent } from './constants/text'
 import Navigation from './components/Navigation'
 import yemcImage from './assets/yemc.png'
 import lfcImage from './assets/lfc.png'
-import cvFile from './assets/Pedro_Sandoval_CV.PDF';
+import cvFile from './assets/Pedro_Sandoval_CV.pdf';
 
 function App() {
   const [language, setLanguage] = useState('es')
