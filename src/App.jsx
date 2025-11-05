@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { colors } from './constants/colors'
 import { textContent } from './constants/text'
-import LanguageSwitcher from './components/LanguageSwitcher'
 import Navigation from './components/Navigation'
 import yemcImage from './assets/yemc.png'
 import lfcImage from './assets/lfc.png'
@@ -13,9 +12,7 @@ function App() {
   return (
     <div className={`min-h-screen bg-gradient-to-br ${colors.background.primary} relative overflow-hidden`}>
       {/* Navigation */}
-      <Navigation currentLanguage={language} />
-      
-      <LanguageSwitcher currentLanguage={language} onLanguageChange={setLanguage} />
+      <Navigation currentLanguage={language} onLanguageChange={setLanguage} />
     
       {/* */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
@@ -136,9 +133,9 @@ function App() {
                 <p className={`${colors.text.secondary}`}>📍 {content.resume.contact.location}</p>
                 <a 
                   href={`mailto:${content.resume.contact.email}`}
-                  className={`${colors.text.secondary} hover:${colors.text.primary} transition-colors`}
+                  className={`${colors.text.secondary} hover:${colors.text.primary} transition-colors underline decoration-2 decoration-[#8E05C2]/50 hover:decoration-[#8E05C2] cursor-pointer font-medium`}
                 >
-                  ✉️ {content.resume.contact.email}
+                  ✉️ {content.resume.contact.emailLinkText}
                 </a>
               </div>
             </div>
@@ -277,9 +274,12 @@ function App() {
             <div className="space-y-6">
               <a 
                 href={`mailto:${content.contact.email}`}
-                className={`block ${colors.text.primary} hover:${colors.text.accent} transition-colors text-lg`}
+                className={`inline-flex items-center gap-2 ${colors.glass.bg} ${colors.glass.border} border rounded-full px-6 py-3 ${colors.text.primary} hover:${colors.text.accent} transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-[#8E05C2]/20 cursor-pointer font-medium`}
               >
-                ✉️ {content.contact.email}
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+                {content.contact.emailLinkText}
               </a>
               
               {/* Social Links with Icons */}

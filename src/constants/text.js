@@ -33,7 +33,8 @@ export const textContent = {
       contact: {
         title: "Información Personal",
         location: "Chile",
-        email: "pedrosandm@hotmail.com"
+        email: "pedrosandm@hotmail.com",
+        emailLinkText: "Enviar correo electrónico"
       },
       about: {
         title: "Sobre Mí",
@@ -72,11 +73,11 @@ export const textContent = {
         technical: {
           title: "Habilidades Técnicas",
           items: [
-            "React (básico)",
-            "ManageEngine ServiceDesk (avanzado)",
-            "Active Directory (intermedio)",
-            "Python (intermedio)",
-            "PowerBI (intermedio)"
+            "React",
+            "ManageEngine ServiceDesk",
+            "Active Directory",
+            "Python",
+            "PowerBI"
           ]
         },
         soft: {
@@ -98,6 +99,7 @@ export const textContent = {
       title: "Contacto",
       subtitle: "Interesado en trabajar juntos?",
       email: "pedrosandm@hotmail.com",
+      emailLinkText: "Enviar correo electrónico",
       linkedin: "linkedin.com/in/pedro-sandoval-munoz",
       github: "github.com/Kangarroar"
     }
@@ -136,7 +138,8 @@ export const textContent = {
       contact: {
         title: "Personal Information",
         location: "Chile",
-        email: "pedrosandm@hotmail.com"
+        email: "pedrosandm@hotmail.com",
+        emailLinkText: "Send email"
       },
       about: {
         title: "About Me",
@@ -175,11 +178,11 @@ export const textContent = {
         technical: {
           title: "Technical Skills",
           items: [
-            "React (basic)",
-            "ManageEngine ServiceDesk (advanced)",
-            "Active Directory (intermediate)",
-            "Python (intermediate)",
-            "PowerBI (intermediate)"
+            "React",
+            "ManageEngine ServiceDesk",
+            "Active Directory",
+            "Python",
+            "PowerBI"
           ]
         },
         soft: {
@@ -201,6 +204,7 @@ export const textContent = {
       title: "Contact",
       subtitle: "Interested in working together?",
       email: "pedrosandm@hotmail.com",
+      emailLinkText: "Send email",
       linkedin: "linkedin.com/in/pedro-sandoval-munoz",
       github: "github.com/Kangarroar"
     }
