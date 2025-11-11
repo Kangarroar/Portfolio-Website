@@ -13,13 +13,13 @@ const Navigation = ({ currentLanguage, onLanguageChange }) => {
             Pedro Sandoval
           </div>
           <div className="hidden md:flex space-x-8 pr-32">
-            <a href="#projects" className="text-gray-300 hover:text-white transition-colors duration-300">
+            <a href="#projects" className="text-gray-300 hover:text-white transition-colors duration-300" data-testid="nav-projects-link">
               {content.navigation.projects}
             </a>
-            <a href="#resume" className="text-gray-300 hover:text-white transition-colors duration-300">
+            <a href="#resume" className="text-gray-300 hover:text-white transition-colors duration-300" data-testid="nav-resume-link">
               {content.navigation.resume}
             </a>
-            <a href="#contact" className="text-gray-300 hover:text-white transition-colors duration-300">
+            <a href="#contact" className="text-gray-300 hover:text-white transition-colors duration-300" data-testid="nav-contact-link">
               {content.navigation.contact}
             </a>
           </div>
