@@ -83,6 +83,7 @@ export const textContent = {
             "ManageEngine ServiceDesk",
             "Active Directory",
             "Python",
+            "QA Automation",
             "PowerBI"
           ]
         },
@@ -194,6 +195,7 @@ export const textContent = {
             "ManageEngine ServiceDesk",
             "Active Directory",
             "Python",
+            "QA Automation",
             "PowerBI"
           ]
         },
