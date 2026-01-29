@@ -25,6 +25,12 @@ export const textContent = {
         description: "Control de ventiladores para Lenovo Legion",
         tech: "C# • .NET",
         link: "https://github.com/Kangarroar/Legion-Fan-Controller"
+      },
+      tdee: {
+        title: "TDEE Calculator",
+        description: "Fitness app / TDEE / Calories",
+        tech: "HTML • JS • JAVA • ANDROID",
+        link: ""
       }
     },
     resume: {
@@ -130,6 +136,12 @@ export const textContent = {
         description: "Fan control utility for Lenovo Legion laptops",
         tech: "C# • .NET",
         link: "https://github.com/Kangarroar/Legion-Fan-Controller"
+      },
+      tdee: {
+        title: "TDEE Calculator",
+        description: "Fitness app / TDEE / Calories",
+        tech: "HTML • JS • JAVA • ANDROID",
+        link: ""
       }
     },
     resume: {

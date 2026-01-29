@@ -4,6 +4,7 @@ import { textContent } from './constants/text'
 import Navigation from './components/Navigation'
 import yemcImage from './assets/yemc.png'
 import lfcImage from './assets/lfc.png'
+import tdeeImage from './assets/tdee.png'
 import cvFile from './assets/Pedro_Sandoval_CV.pdf';
 
 function App() {
@@ -47,7 +48,7 @@ function App() {
           <h2 className={`text-5xl md:text-6xl font-bold bg-gradient-to-r ${colors.gradientText.heading} bg-clip-text text-transparent text-center mb-16`}>
             {content.projects.title}
           </h2>
-          <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="max-w-16xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-4">
             {/* YEMC Project */}
             <a 
               href={content.projects.yemc.link}
@@ -72,6 +73,34 @@ function App() {
                   </p>
                   <p className={`${colors.text.muted} text-xs`}>
                     {content.projects.yemc.tech}
+                  </p>
+                </div>
+              </div>
+            </a>
+
+            <a 
+              href={content.projects.tdee.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`group block ${colors.glass.bg} backdrop-blur-xl ${colors.glass.border} hover:${colors.glass.borderHover} rounded-2xl overflow-hidden transition-all duration-500 hover:scale-105 hover:shadow-2xl`}
+              data-testid="project-card-tdee"
+            >
+              <div className="relative aspect-[4/3] overflow-hidden bg-[#000000]">
+                <img 
+                  src={tdeeImage} 
+                  alt={content.projects.tdee.title}
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
+                <div className="absolute bottom-0 left-0 right-0 p-6">
+                  <h3 className={`text-2xl font-bold ${colors.text.primary} mb-2`}>
+                    {content.projects.tdee.title}
+                  </h3>
+                  <p className={`${colors.text.secondary} mb-2 text-sm`}>
+                    {content.projects.tdee.description}
+                  </p>
+                  <p className={`${colors.text.muted} text-xs`}>
+                    {content.projects.tdee.tech}
                   </p>
                 </div>
               </div>
